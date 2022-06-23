@@ -1,0 +1,7 @@
+{{#if listExists}}
+    <ul>
+        {{#each products}}
+            <li>Usuario: {{this.username}} / producto: {{this.name}} / precio: ${{this.price}}</li>
+        {{/each}}
+    </ul>
+{{/if}}
